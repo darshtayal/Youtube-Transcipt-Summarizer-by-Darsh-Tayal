@@ -1,0 +1,9 @@
+gradio
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+youtube-transcript-api
+bytez
+python-dotenv
+sentence-transformers
+chromadb
