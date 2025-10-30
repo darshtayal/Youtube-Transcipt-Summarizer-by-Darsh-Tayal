@@ -386,4 +386,4 @@ with gr.Blocks(
     submit_button.click(setter, inputs=[youtube_link], outputs=[first_page, loading_page, chat_page, wrong_link_page, cc_not_enabled, normal_error, summary, vs])
     submit_answer.click(execute, inputs=[vs, ques], outputs=[answer, chat_page, normal_error])
 
-ui.launch(inbrowser=True)
+ui.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
